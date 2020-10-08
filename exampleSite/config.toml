@@ -1,13 +1,13 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "https://thawhakyi.co"
+title = "Demo Hugo Website"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
 summaryLength = "15"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "thawhakyi" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
@@ -84,9 +84,9 @@ url = "contact"
 weight = 7
 
 [[menu.main]]
-name = "themefisher"
+name = "home"
 pre = ""
-url = "https://themefisher.com/"
+url = "https://thawhakyi.co/"
 weight = 8
 
 ############################# Default Parameters ##########################
@@ -94,7 +94,7 @@ weight = 8
 logo = "images/logo.png"
 # Meta data
 description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
+author = "thawhakyi"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -102,7 +102,7 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/logo.png"
 
 # cookies
@@ -112,7 +112,7 @@ expire_days = 2
 
 # google map
 [params.map]
-enable = false
+enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
@@ -151,13 +151,4 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 [thawhakyi.co](https://thawhakyi.co) & Developed by [Gethugothemes](https://gethugothemes.com)"
